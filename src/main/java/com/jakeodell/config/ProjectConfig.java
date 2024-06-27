@@ -22,6 +22,8 @@ public class ProjectConfig {
     public Person person() {
         Person p = new Person();
         p.setName("Ella");
+        //Direct wiring
+        p.setParrot(parrot());
         return p;
     }
 
