@@ -1,16 +1,11 @@
-package com.jakeodell.main;
+package com.jakeodell.beans;
 
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
-
 @Component
 public class Parrot {
-    private String name;
+    private String name = "koko";
 
-    public Parrot() {
-        System.out.println("Parrot constructor");
-    }
     public String getName() {
         return name;
     }
