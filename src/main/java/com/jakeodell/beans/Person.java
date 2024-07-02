@@ -26,7 +26,4 @@ public class Person {
         return parrot;
     }
 
-    public void setParrot(Parrot parrot) {
-        this.parrot = parrot;
-    }
 }
